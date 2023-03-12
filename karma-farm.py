@@ -65,7 +65,7 @@ def slackAlert(message):
 
 
 def doComment():
-    subreddit = redditBot.subreddit("freekarma4u")
+    subreddit = redditBot.subreddit("FreeKarma4You")
     randomposts = open("randomposts.txt").read()
     randomposts = randomposts.split('\n')
     for submission in subreddit.stream.submissions():
